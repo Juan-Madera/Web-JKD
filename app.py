@@ -5,7 +5,7 @@ import sqlite3
 import uuid
 
 st.set_page_config(page_title="Dashboard Universal", layout="wide")
-st.title("Bienvenidos a JKD")
+st.title("Bienvenidos a Dashboard Universal")
 
 # 🔗 Conexión a base de datos SQLite
 conn = sqlite3.connect("datos.db", check_same_thread=False)
